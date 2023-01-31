@@ -1,6 +1,11 @@
+import NavBar from "../components/NavBar"
+
 const Home = (props) => {
   return (
-    <h1>Home</h1>
+    <>
+      <NavBar />
+      <h1>Welcome to my Page</h1>
+    </>
   )
 }
 export default Home
