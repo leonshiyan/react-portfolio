@@ -1,46 +1,28 @@
 import { Link } from "react-router-dom"
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
 
 const NavBar = (props) => {
-  return (
-    <nav>
-        <Link 
-            to='/'
-        >
-            Yan Shi
-        </Link>
-
-        <ul>
-            <li>
-                <Link
-                    to='/about'
-                >
-                    About
-                </Link>
-            </li>
-
-            <li>
-                <Link
-                    to='/contact'
-                >
-                    Contact
-                </Link>
-            </li>
-            <li>
-                <Link
-                    to='/Resume'
-                >
-                    Resume
-                </Link>
-            </li>
-            <li>
-                <Link
-                    to='/Projects'
-                >
-                    Projects
-                </Link>
-            </li>
-        </ul>
-    </nav>
+return (
+    <>
+    
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Container>
+                <Navbar.Brand href='/'>Yan Shi</Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="me-auto">
+                    <Nav.Link href="/about">About</Nav.Link>
+                    <Nav.Link href="/contact">Contact</Nav.Link>
+                    <Nav.Link href="/resume">Resume</Nav.Link>
+                    <Nav.Link href="/projects">Projects</Nav.Link>
+                </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
+    </>
 )
 }
 export default NavBar
