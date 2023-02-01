@@ -7,7 +7,7 @@ const projects = [
     deploymentLink: "https://emosweeper.netlify.app/"
   },
   {
-    title: "GPTracker",
+    title: "GP Tracker",
     description: "GPTracker app allows you to easily log and track all of your fuel purchases, helping you stay on top of your fuel costs and expenses.",
     image: "https://user-images.githubusercontent.com/23459228/213579785-b54609e1-6e4c-4f28-8afa-1f595f2c3e91.png",
     repositoryLink: "https://github.com/leonshiyan/gp-tracker",

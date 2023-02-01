@@ -1,7 +1,10 @@
-import projects from "../data/projects";
+import { useState,useEffect } from "react"
+import { useParams } from "react-router-dom"
+import findProject from "../utilities/findProject"
 
 const ProjectDetails = () => {
-  const project = projects[0];
+  const { projectDetails } = useParams()
+  const project = findProject(projectDetails);
 
   return (
     <div>
@@ -20,4 +23,4 @@ const ProjectDetails = () => {
   );
 };
 
-export default ProjectDetails;
+export default ProjectDetails
