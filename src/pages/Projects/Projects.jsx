@@ -1,5 +1,5 @@
-import NavBar from "../components/NavBar"
-import ProjectList from "../components/ProjectList"
+import NavBar from "../../components/NavBar"
+import ProjectList from "../../components/ProjectList"
 
 const Projects = (props) => {
   return (

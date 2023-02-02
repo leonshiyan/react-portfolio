@@ -1,5 +1,5 @@
 
-import NavBar from "../components/NavBar"
+import NavBar from "../../components/NavBar"
 
 const Contact = (props) => {
   return (
@@ -15,7 +15,7 @@ const Contact = (props) => {
         <div>
           <a href=" https://github.com/leonshiyan">Github</a>
         </div>
-
+        
     </>
   )
 }
