@@ -7,9 +7,7 @@ const About = (props) => {
       <NavBar />
       <main className={styles.container}>
         <section className={styles.about}>
-          <header>
             <h1>About Page</h1>
-            <article>
               <p>
               Full-stack developer with a strong desire to learn and grow in the industry.
               </p>
@@ -19,13 +17,7 @@ const About = (props) => {
               <p>
               Always looking for opportunities to expand skills and gain knowledge about new technologies.
               </p>
-              
-              
-            </article>
-            <section className={styles.splash}>
-              <img src='/pics/rsz_mypic.jpg' alt="A cute owl" />
-            </section>
-          </header>
+              <img src='/pics/rsz_mypic.jpg' alt="My" />
         </section>
       </main>
       <footer className={styles.footer}>
