@@ -4,12 +4,7 @@
   justify-content: center;
   flex-direction: column;
   background-color: #388;
-  height: 82vh;
   font-family: 'Nunito', sans-serif;
-}
-
-.container section {
-  padding: 0px 22px;
 }
 
 .container > section {

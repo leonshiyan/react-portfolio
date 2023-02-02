@@ -11,8 +11,16 @@ const About = (props) => {
             <h1>About Page</h1>
             <article>
               <p>
-                Full-stack developer with a strong desire to learn and grow in the industry.Specializing in modern technologies and frameworks such as MERN stack.Always looking for opportunities to expand skills and gain knowledge about new technologies.
+              Full-stack developer with a strong desire to learn and grow in the industry.
               </p>
+              <p>
+              Specializing in modern technologies and frameworks such as MERN stack.
+              </p>
+              <p>
+              Always looking for opportunities to expand skills and gain knowledge about new technologies.
+              </p>
+              
+              
             </article>
             <section className={styles.splash}>
               <img src='/pics/rsz_mypic.jpg' alt="A cute owl" />
