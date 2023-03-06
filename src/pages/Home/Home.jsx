@@ -15,15 +15,15 @@ const Home = (props) => {
             <h4 >A software engineer</h4>
           </header>
           <img src='/pics/rsz_mypic.jpg' alt="My" />
-              <p>
-              Full-stack developer with a strong desire to learn and grow in the industry.
-              </p>
-              <p>
-              Specializing in modern technologies and frameworks such as MERN stack.
-              </p>
-              <p>
-              Always looking for opportunities to expand skills and gain knowledge about new technologies.
-              </p>
+          <p>
+            Full-stack developer with a strong desire to learn and grow in the industry.
+          </p>
+          <p>
+            Specializing in modern technologies and frameworks such as MERN stack.
+          </p>
+          <p>
+            Always looking for opportunities to expand skills and gain knowledge about new technologies.
+          </p>
         </section>
         <section id="contact">
           <h1>Contact</h1>
@@ -40,7 +40,7 @@ const Home = (props) => {
           </Button>
           <br />
         </section>
-        <section  id="projects">
+        <section id="projects">
           <h1>Projects</h1>
           <ProjectList />
         </section>
