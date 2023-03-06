@@ -25,35 +25,26 @@ const Home = (props) => {
             Always looking for opportunities to expand skills and gain knowledge about new technologies.
           </p>
         </section>
-        <section id="contact">
-          <h1>Contact</h1>
-          <Button variant="outline-info" size="lg">
-            <a href="mailto:leonshiyan@email.com">Send Email</a>
-          </Button>
-          <br />
-          <Button variant="outline-info" size="lg">
-            <a href="https://www.linkedin.com/in/leonshiyan/">LinkedIn</a>
-          </Button>
-          <br />
-          <Button variant="outline-info" size="lg">
-            <a href=" https://github.com/leonshiyan">Github</a>
-          </Button>
-          <br />
-        </section>
         <section id="projects">
           <h1>Projects</h1>
           <ProjectList />
         </section>
-        <section id="resume">
-          <h1>Resume</h1>
-          <div>
-            <a href={process.env.PUBLIC_URL + 'YAN SHI-Fullstack .pdf'} download>
-              Download my resume as PDF
-            </a>
-          </div>
+        <section id="contact">
+          <h1>Contact</h1>
+          <Button variant="info" size="lg">
+            <a href="mailto:leonshiyan@email.com">Send Email</a>
+          </Button>
+          <br />
+          <Button variant="info" size="lg">
+            <a href="https://www.linkedin.com/in/leonshiyan/">LinkedIn</a>
+          </Button>
+          <br />
+          <Button variant="info" size="lg">
+            <a href=" https://github.com/leonshiyan">Github</a>
+          </Button>
+          <br />
         </section>
       </main>
-
     </>
   )
 }
