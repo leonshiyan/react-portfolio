@@ -12,11 +12,19 @@ const Home = (props) => {
             <h3 >My name is Yan Shi</h3>
             <h4 >A software engineer</h4>
           </header>
+          <img src='/pics/rsz_mypic.jpg' alt="My" />
+              <p>
+              Full-stack developer with a strong desire to learn and grow in the industry.
+              </p>
+              <p>
+              Specializing in modern technologies and frameworks such as MERN stack.
+              </p>
+              <p>
+              Always looking for opportunities to expand skills and gain knowledge about new technologies.
+              </p>
         </section>
       </main>
-      <footer className={styles.footer}>
-        <p>© 2022 NO RIGHTS RESERVED</p>
-      </footer>
+
     </>
   )
 }
