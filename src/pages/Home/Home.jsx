@@ -44,6 +44,14 @@ const Home = (props) => {
           <h1>Projects</h1>
           <ProjectList />
         </div>
+        <div>
+          <h1>Resume</h1>
+          <div>
+            <a href={process.env.PUBLIC_URL + 'YAN SHI-Fullstack .pdf'} download>
+              Download my resume as PDF
+            </a>
+          </div>
+        </div>
       </main>
 
     </>
