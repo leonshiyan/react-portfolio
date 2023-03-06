@@ -1,6 +1,7 @@
 import NavBar from "../../components/NavBar"
 import styles from './Home.module.css'
 import { Button } from "react-bootstrap"
+import ProjectList from "../../components/ProjectList"
 
 const Home = (props) => {
   return (
@@ -25,19 +26,23 @@ const Home = (props) => {
               </p>
         </section>
         <div>
-        <h1>Contact</h1>
-        <Button variant="outline-info" size="lg">
-          <a href="mailto:leonshiyan@email.com">Send Email</a>
-        </Button>
-        <br />
-        <Button variant="outline-info" size="lg">
-          <a href="https://www.linkedin.com/in/leonshiyan/">LinkedIn</a>
-        </Button>
-        <br />
-        <Button variant="outline-info" size="lg">
-          <a href=" https://github.com/leonshiyan">Github</a>
-        </Button>
-        <br />
+          <h1>Contact</h1>
+          <Button variant="outline-info" size="lg">
+            <a href="mailto:leonshiyan@email.com">Send Email</a>
+          </Button>
+          <br />
+          <Button variant="outline-info" size="lg">
+            <a href="https://www.linkedin.com/in/leonshiyan/">LinkedIn</a>
+          </Button>
+          <br />
+          <Button variant="outline-info" size="lg">
+            <a href=" https://github.com/leonshiyan">Github</a>
+          </Button>
+          <br />
+        </div>
+        <div>
+          <h1>Projects</h1>
+          <ProjectList />
         </div>
       </main>
 
