@@ -8,7 +8,7 @@ const Home = (props) => {
     <>
       <NavBar />
       <main className={styles.container}>
-        <section className={styles.about}>
+        <section className={styles.about} id="about">
           <header>
             <h1 >Welcome to my Page</h1>
             <h3 >My name is Yan Shi</h3>
@@ -25,7 +25,7 @@ const Home = (props) => {
               Always looking for opportunities to expand skills and gain knowledge about new technologies.
               </p>
         </section>
-        <div>
+        <section id="contact">
           <h1>Contact</h1>
           <Button variant="outline-info" size="lg">
             <a href="mailto:leonshiyan@email.com">Send Email</a>
@@ -39,19 +39,19 @@ const Home = (props) => {
             <a href=" https://github.com/leonshiyan">Github</a>
           </Button>
           <br />
-        </div>
-        <div>
+        </section>
+        <section  id="projects">
           <h1>Projects</h1>
           <ProjectList />
-        </div>
-        <div>
+        </section>
+        <section id="resume">
           <h1>Resume</h1>
           <div>
             <a href={process.env.PUBLIC_URL + 'YAN SHI-Fullstack .pdf'} download>
               Download my resume as PDF
             </a>
           </div>
-        </div>
+        </section>
       </main>
 
     </>

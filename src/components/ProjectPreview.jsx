@@ -7,14 +7,19 @@ const ProjectPreview = (props) => {
   return (
     <>
     <br />
-      <h3>{props.title}</h3>
-      <img 
-          src={props.image} 
-          alt={props.title}
-      />
-      <Link to={`/projects/${hyphenatedTitle}`}>
-        <Button variant="info">Learn More</Button>
-      </Link>
+      <div>
+      <h1>{props.title}</h1>
+      <p>{props.description}</p>
+      <img src={props.image} alt={props.title} />
+      <br />
+      <a href={props.repositoryLink}>
+        <button>GitHub Repository</button>
+      </a>
+      <br />
+      <a href={props.deploymentLink}>
+        <button>Deployed Site</button>
+      </a>
+    </div>
       <br />
       <br />
     </>
