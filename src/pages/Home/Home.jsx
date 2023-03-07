@@ -7,7 +7,7 @@ const Home = (props) => {
     <>
       <NavBar />
       <main className={styles.container}>
-        <section class="about">
+        <section id="about">
           <header>
             <h1 >HI,I'M YAN SHI</h1>
             <h1 >A FULLSTACK DEVELOPER</h1>
@@ -23,10 +23,10 @@ const Home = (props) => {
             Always looking for opportunities to expand skills and gain knowledge about new technologies.
           </p>
         </section>
-        <section class="projects">
+        <div id="projects">
           <h1>Projects</h1>
           <ProjectList />
-        </section>
+        </div>
         <section id="contact">
           <h1>Contact</h1>
           <button class="btn btn-primary">

@@ -6,12 +6,12 @@ import Navbar from 'react-bootstrap/Navbar';
 const NavBar = (props) => {
 return (
     <>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
+        <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark" sticky="top">
             <Container>
                 <Navbar.Brand href='/'> 
                     <img
                     alt=""
-                    src="./logo.svg"
+                    src="./code-48.png"
                     width="30"
                     height="30"
                     className="d-inline-block align-top"
