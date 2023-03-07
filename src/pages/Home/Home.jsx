@@ -1,6 +1,5 @@
 import NavBar from "../../components/NavBar"
 import styles from './Home.module.css'
-import { Button } from "react-bootstrap"
 import ProjectList from "../../components/ProjectList"
 
 const Home = (props) => {
@@ -8,13 +7,12 @@ const Home = (props) => {
     <>
       <NavBar />
       <main className={styles.container}>
-        <section className={styles.about} id="about">
+        <section class="about">
           <header>
-            <h1 >Welcome to my Page</h1>
-            <h3 >My name is Yan Shi</h3>
-            <h4 >A software engineer</h4>
+            <h1 >HI,I'M YAN SHI</h1>
+            <h1 >A FULLSTACK DEVELOPER</h1>
+            <h1 >BASED IN CANADA</h1>
           </header>
-          <img src='/pics/rsz_mypic.jpg' alt="My" />
           <p>
             Full-stack developer with a strong desire to learn and grow in the industry.
           </p>
@@ -25,23 +23,23 @@ const Home = (props) => {
             Always looking for opportunities to expand skills and gain knowledge about new technologies.
           </p>
         </section>
-        <section id="projects">
+        <section class="projects">
           <h1>Projects</h1>
           <ProjectList />
         </section>
         <section id="contact">
           <h1>Contact</h1>
-          <Button variant="info" size="lg">
+          <button class="btn btn-primary">
             <a href="mailto:leonshiyan@email.com">Send Email</a>
-          </Button>
+          </button>
           <br />
-          <Button variant="info" size="lg">
+          <button class="btn btn-primary">
             <a href="https://www.linkedin.com/in/leonshiyan/">LinkedIn</a>
-          </Button>
+          </button>
           <br />
-          <Button variant="info" size="lg">
+          <button class="btn btn-primary">
             <a href=" https://github.com/leonshiyan">Github</a>
-          </Button>
+          </button>
           <br />
         </section>
       </main>

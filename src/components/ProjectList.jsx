@@ -1,23 +1,30 @@
 import projects from "../data/projects"
-import { Button } from "react-bootstrap"
+import Card from 'react-bootstrap/Card'
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+
+
 const ProjectList = (props) => {
   return (
     <>
+    <Row xs={1} md={2} className="g-4">
       {projects.map((project, index) => (
-        <section key={index}>
-          <h1>{project.title}</h1>
-          <p>{project.description}</p>
-          <img src={project.image} alt={project.title} />
-          <br />
-          <a href={project.repositoryLink}>
-            <Button>GitHub Repository</Button>
-          </a>
-          <br />
-          <a href={project.deploymentLink}>
-            <Button>Deployed Site</Button>
-          </a>
-        </section>
+        <Col>
+          <Card key={index}>
+          <Card.Title>{project.title}</Card.Title>
+          <Card.Text>{project.description}</Card.Text>
+          <Card.Img variant="top" src={project.image} alt={project.title}/>
+            <a href={project.repositoryLink}>
+              <button class="btn btn-primary">GitHub Repository</button>
+            </a>
+            <br />
+            <a href={project.deploymentLink}>
+              <button class="btn btn-primary">Deployed Site</button>
+            </a>
+          </Card>
+        </Col>
       ))}
+    </Row>
     </>
   )
 }
