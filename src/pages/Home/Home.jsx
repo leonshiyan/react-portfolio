@@ -25,11 +25,53 @@ const Home = (props) => {
             Always looking for opportunities to expand skills and gain knowledge about new technologies.
           </p>
         </div>
-        <div ></div>
         <div className={styles.projects} id="projects">
           <h1>PROJECTS</h1>
           <ProjectList />
         </div>
+        <div className={styles.skills} id="skills">
+          <h1>Skills</h1>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <h2 style={{ color: '#61dafb' }}>Front-End</h2>
+                <ul class="list-unstyled">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                  <li>TypeScript</li>
+                  <li>Bootstrap</li>
+                  <li>React.js</li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h2 style={{ color: '#0E8388' }}>Back-End</h2>
+                <ul class="list-unstyled">
+                  <li>Node.js</li>
+                  <li>Express.js</li>
+                  <li>MongoDB</li>
+                  <li>MySQL</li>
+                  <li>RESTful APIs</li>
+                  <li>PostgreSQL</li>
+                  <li>OAuth 2.0 and JWT</li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h2 style={{ color: '#D9ACF5' }}>Other Skills</h2>
+                <ul class="list-unstyled">
+                  <li>Git</li>
+                  <li>Python</li>
+                  <li>Java</li>
+                  <li>Problem Solving</li>
+                  <li>Collaboration</li>
+                  <li>Communication</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
         <div id="contact">
           <h1>LET'S TALK</h1>
           <button class="btn btn-primary">
