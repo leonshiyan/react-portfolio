@@ -26,7 +26,7 @@ return (
                     <Nav.Link href="/#projects">Projects</Nav.Link>
                     <Nav.Link href="/#contact">Contact</Nav.Link>
                     <Nav.Link href="/#">
-                        <a href={process.env.PUBLIC_URL + 'YAN SHI-Fullstack .pdf'} download>
+                        <a href={process.env.PUBLIC_URL + 'YAN SHI - Resume .pdf'} download>
                             Resume
                         </a>
                     </Nav.Link>
