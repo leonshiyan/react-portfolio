@@ -7,11 +7,17 @@ const Home = (props) => {
     <>
       <NavBar />
       <main className={styles.container}>
-        <div className={styles.about}>
+        <div className={styles.about} id="about">
           <header>
             <h1 >HI,I'M YAN SHI</h1>
-            <h1 >A FULLSTACK DEVELOPER</h1>
-            <h1 >BASED IN CANADA</h1>
+            <h1 >A <span>FULLSTACK DEVELOPER</span></h1>
+            <h1>
+              BASED IN <span style={{ color: 'red' }}>C</span>
+              <span style={{ color: 'white' }}>A</span>
+              <span style={{ color: 'red' }}>NA</span>
+              <span style={{ color: 'white' }}>D</span>
+              <span style={{ color: 'red' }}>A</span>
+            </h1>
           </header>
           <p>
             Full-stack developer with a strong desire to learn and grow in the industry. <br />
@@ -20,12 +26,12 @@ const Home = (props) => {
           </p>
         </div>
         <div ></div>
-        <div className={styles.projects}>
-          <h1>Projects</h1>
+        <div className={styles.projects} id="projects">
+          <h1>PROJECTS</h1>
           <ProjectList />
         </div>
         <div id="contact">
-          <h1>Contact</h1>
+          <h1>LET'S TALK</h1>
           <button class="btn btn-primary">
             <a href="mailto:leonshiyan@email.com">Send Email</a>
           </button>
