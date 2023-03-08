@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "BusBuddy",
-    description: "BusBuddy is a mobile-first design app using API fron Translink,specifically for BC commuters. It is a faster and easier way to find out real-time bus schedules.",
+    description: "BusBuddy is a mobile-first design app using API from Translink,specifically for BC commuters. It is a faster and easier way to find out real-time bus schedules.",
     image: "https://user-images.githubusercontent.com/23459228/222002683-dd91e8be-c508-4e77-bd28-98f255a3014e.png",
     repositoryLink: "https://github.com/leonshiyan/bus-buddy-front-end",
     deploymentLink: "https://busbuddy.netlify.app/"
