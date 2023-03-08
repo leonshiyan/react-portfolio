@@ -24,7 +24,7 @@ const ProjectList = (props) => {
               bg="dark"
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={() => handleMouseLeave()}
-              style={{ position: 'relative' }}
+              style={{ position: 'relative' , margin : '20px 0'}}
             >
               <Card.Title>{project.title}</Card.Title>
               <Card.Img variant="top" src={project.image} alt={project.title} />

@@ -9,7 +9,7 @@ const Home = (props) => {
       <main className={styles.container}>
         <div className={styles.about} id="about">
           <header>
-            <h1 >HI,I'M YAN SHI</h1>
+            <h1 >HI, I'M YAN SHI</h1>
             <h1 >A <span>FULLSTACK DEVELOPER</span></h1>
             <h1>
               BASED IN <span style={{ color: 'red' }}>C</span>
@@ -72,7 +72,7 @@ const Home = (props) => {
 
         </div>
 
-        <div id="contact">
+        <div className={styles.contact} id="contact">
           <h1>LET'S TALK</h1>
           <button class="btn btn-primary">
             <a href="mailto:leonshiyan@email.com">Send Email</a>
