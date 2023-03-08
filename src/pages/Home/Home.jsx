@@ -21,7 +21,7 @@ const Home = (props) => {
           </header>
           <p>
             Full-stack developer with a strong desire to learn and grow in the industry. <br />
-            Specializing in modern technologies and frameworks such as MERN stack.<br />
+            Specializing in modern technologies and frameworks such as MERN/PERN stack.<br />
             Always looking for opportunities to expand skills and gain knowledge about new technologies.
           </p>
         </div>
