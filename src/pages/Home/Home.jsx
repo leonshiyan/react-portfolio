@@ -34,7 +34,7 @@ const Home = (props) => {
           <div class="container">
             <div class="row">
               <div class="col-md-4">
-                <h2 style={{ color: '#61dafb' }}>Front-End</h2>
+                <h2>Front-End</h2>
                 <ul class="list-unstyled">
                   <li>HTML5</li>
                   <li>CSS3</li>
@@ -45,7 +45,7 @@ const Home = (props) => {
                 </ul>
               </div>
               <div class="col-md-4">
-                <h2 style={{ color: '#0E8388' }}>Back-End</h2>
+                <h2>Back-End</h2>
                 <ul class="list-unstyled">
                   <li>Node.js</li>
                   <li>Express.js</li>
@@ -57,7 +57,7 @@ const Home = (props) => {
                 </ul>
               </div>
               <div class="col-md-4">
-                <h2 style={{ color: '#D9ACF5' }}>Other Skills</h2>
+                <h2>Other Skills</h2>
                 <ul class="list-unstyled">
                   <li>Git</li>
                   <li>Python</li>
